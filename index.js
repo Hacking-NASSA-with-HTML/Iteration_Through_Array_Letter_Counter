@@ -1,4 +1,6 @@
-let arr = ["python", "c++", "c", "scala", "java"]	
+let arr = ["python", "c++", "c", "scala", "java"]
+
+
 let find_the_letter = (arr, letter) => {
 	counter = 0;
 	for (let x = 0; x < arr.length; x++) {
