@@ -5,7 +5,7 @@ let find_the_letter = (arr, letter) => {
 	counter = 0;
 	for (let x = 0; x < arr.length; x++) {
 		for (let y = 0; y < arr[x].length; y++) {
-			if (letter == arr[x][y]) {
+			if (letter === arr[x][y]) {
 				counter = counter + 1;
 			}
 		}
